@@ -1,20 +1,37 @@
 (function($) {
   
   "use strict";
+  
+  /* Page Loader active
+  ========================================================*/
+  $('#preloader').fadeOut();
 
-/* 
-   CounterUp
-   ========================================================================== */
-    $('.counter').counterUp({
-      time: 500
-    });
-
-/* 
-   MixitUp
-   ========================================================================== */
+  /* 
+  CounterUp
+  ========================================================================== */
+  $('.counter').counterUp({
+    time: 500
+  });  
+  
+  /* 
+  MixitUp
+  ========================================================================== */
   $('#portfolio').mixItUp();
 
-/* 
+  /* 
+   Screens Crouserl
+   ========================================================================== */
+    $('#carousel-screen').carousel({
+      num: 5,
+      maxWidth: 450,
+      maxHeight: 300,
+      distance: 50,
+      scale: 0.6,
+      animationTime: 1000,
+      showTime: 4000
+    });   
+
+  /* 
    Clients Sponsor 
    ========================================================================== */
     var owl = $("#clients-scroller");
@@ -34,23 +51,23 @@
 
   /* Testimonials Carousel 
   ========================================================*/
-    var owl = $("#testimonials");
-      owl.owlCarousel({
-        navigation: false,
-        pagination: true,
-        slideSpeed: 1000,
-        stopOnHover: true,
-        autoPlay: true,
-        items: 2,
-        itemsDesktop : [1199,2],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,1],
-        itemsTablet: [767,1],
-        itemsTabletSmall: [480,1],
-        itemsMobile : [479,1],
-      });   
+  var owl = $("#testimonials");
+    owl.owlCarousel({
+      navigation: false,
+      pagination: true,
+      slideSpeed: 1000,
+      stopOnHover: true,
+      autoPlay: true,
+      items: 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [980,1],
+      itemsTablet: [768,1],
+      itemsTablet: [767,1],
+      itemsTabletSmall: [480,1],
+      itemsMobile : [479,1],
+    });   
 
-/* 
+  /* 
    Touch Owl Carousel
    ========================================================================== */
     var owl = $(".touch-slider");
@@ -60,39 +77,55 @@
       slideSpeed: 1000,
       stopOnHover: true,
       autoPlay: true,
-      items: 1,
-      itemsDesktopSmall: [1024, 1],
-      itemsTablet: [600, 1],
+      items: 4,
+      itemsDesktopSmall: [1024, 4],
+      itemsTablet: [600, 2],
       itemsMobile: [479, 1]
     });
 
-    $('.touch-slider').find('.owl-prev').html('<i class="lni-chevron-left"></i>');
-    $('.touch-slider').find('.owl-next').html('<i class="lni-chevron-right"></i>');
+    $('.touch-slider').find('.owl-prev').html('<i class="lni-arrow-left"></i>');
+    $('.touch-slider').find('.owl-next').html('<i class="lni-arrow-right"></i>');
 
-/* 
+    /* Screens Shot Slider
+    =============================*/
+     var owl = $(".screens-slider");
+      owl.owlCarousel({
+        navigation: false,
+        pagination: true,
+        slideSpeed: 1000,
+        stopOnHover: true,
+        autoPlay: true,
+        addClassActive: true,
+        items: 3,
+        itemsDesktopSmall: [1024, 3],
+        itemsTablet: [600, 1],
+        itemsMobile: [479, 1]
+      });
+
+  /* 
    Sticky Nav
    ========================================================================== */
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > 100) {
             $('.header-top-area').addClass('menu-bg');
         } else {
             $('.header-top-area').removeClass('menu-bg');
         }
     });
 
-/* 
-   VIDEO POP-UP
-   ========================================================================== */
-    $('.video-popup').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false,
-    });
+  /* 
+ VIDEO POP-UP
+ ========================================================================== */
+  $('.video-popup').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false,
+  });
 
-/* 
+  /* 
    Back Top Link
    ========================================================================== */
     var offset = 200;
@@ -113,16 +146,11 @@
       return false;
     })
 
-/* 
+  /* 
    One Page Navigation & wow js
    ========================================================================== */
     //Initiat WOW JS
     new WOW().init();
-
-    // one page navigation 
-    $('.main-navigation').onePageNav({
-            currentClass: 'active'
-    }); 
 
     $(window).on('load', function() {
        
@@ -132,7 +160,7 @@
         });
 
         $(window).on('scroll', function() {
-            if ($(window).scrollTop() > 200) {
+            if ($(window).scrollTop() > 100) {
                 $('.fixed-top').addClass('menu-bg');
             } else {
                 $('.fixed-top').removeClass('menu-bg');
@@ -140,29 +168,28 @@
         });
 
     });
-/* Nivo Lightbox
+
+  /* Auto Close Responsive Navbar on Click
+  ========================================================*/
+  function close_toggle() {
+      if ($(window).width() <= 768) {
+          $('.navbar-collapse a').on('click', function () {
+              $('.navbar-collapse').collapse('hide');
+          });
+      }
+      else {
+          $('.navbar .navbar-inverse a').off('click');
+      }
+  }
+  close_toggle();
+  $(window).resize(close_toggle);
+
+  /* Nivo Lightbox
   ========================================================*/   
    $('.lightbox').nivoLightbox({
     effect: 'fadeScale',
     keyboardNav: true,
   });
-
-
-/* stellar js
-  ========================================================*/
-  $.stellar({
-    horizontalScrolling: false,
-    verticalOffset: 30,
-    responsive: false
-  });
-
-/* 
-   Page Loader
-   ========================================================================== */
-   $(window).on('load',function() {
-      "use strict";
-      $('#loader').fadeOut();
-    });
 
 }(jQuery));
 
