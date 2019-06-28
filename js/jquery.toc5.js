@@ -28,7 +28,7 @@ Description : Automatic index
 function index() {
     var index =
         "<ul id=\"IndexJS\" style=\"display: block;\">" +
-        "<li id=\"tocid\">Nội Dung bài viết</li>";
+        "<li id=\"tocid\">Mục lục</li>";
 
     // searches every tag you put in here
     $("h1,.post-body  h2,.post-body  h3,.post-body  h4,.post-body  h5,.post-body  h6").each(function() {
