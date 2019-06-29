@@ -629,9 +629,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #2dfbff 0%, #3c96ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #2dfbff 0%, #3c96ff 100%);
-  background-image: -ms-linear-gradient(0deg, #2dfbff 0%, #3c96ff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
 }
 
 .hero-area .contents {
