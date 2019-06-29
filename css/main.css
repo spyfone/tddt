@@ -162,9 +162,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   position: relative;
   z-index: 1;
 }
@@ -256,7 +256,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-width: 2px;
   border-color: #3c96ff;
   border-style: solid;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -266,7 +266,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-apple i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -500,7 +500,7 @@ button:focus {
 }
 
 .back-to-top i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   font-size: 20px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -688,9 +688,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
 }
 
 .hero-area-2 .contents {
@@ -827,9 +827,9 @@ button:focus {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
 }
 
 .video-promo .video-promo-content {
@@ -931,7 +931,7 @@ button:focus {
 .services-item .icon i {
   font-size: 42px;
   line-height: 60px;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -966,7 +966,7 @@ button:focus {
 
 .single-feature i {
   font-size: 42px;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -1054,9 +1054,9 @@ button:focus {
 
 #features .nav-tabs .nav-item.show .nav-link i,
 #features .nav-tabs .nav-link.active i {
-  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
-  background: -o-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: -webkit-linear-gradient(left, #3c96ff 100%, #2dfbff 0%);
+  background: -o-linear-gradient(left, #3c96ff 100%, #2dfbff 0%);
+  background: linear-gradient(to right, #3c96ff 100%, #2dfbff 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1138,9 +1138,9 @@ button:focus {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   z-index: 1;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1296,9 +1296,9 @@ button:focus {
 
 .single-team .social-list {
   position: absolute;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   border-top-right-radius: 30px;
   bottom: 0;
   left: -40px;
@@ -1498,9 +1498,9 @@ button:focus {
   -moz-transition: background-image 0.3s  ease-out;
   -o-transition: background-image 0.3s  ease-out;
   transition: background-image 0.3s  ease-out;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.38);
 }
 
@@ -1567,9 +1567,9 @@ button:focus {
 
 .controls a:hover,
 .controls .active {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   color: #fff !important;
 }
 
@@ -1670,9 +1670,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   opacity: 0.6;
 }
 
@@ -1990,9 +1990,9 @@ textarea {
   Subscribe Style
   ========================================================================== */
 #subscribe {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   position: relative;
 }
 
@@ -2146,9 +2146,9 @@ textarea {
 }
 
 footer .footer-Content {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
   padding: 60px 0 0px;
   color: #546E7A;
 }
@@ -2319,9 +2319,9 @@ footer .menu li a:hover {
 }
 
 #counter .bg-color-1 {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
+  background-image: -ms-linear-gradient(0deg, #3c96ff 100%, #2dfbff 0%);
 }
 
 #counter .bg-color-2 {
