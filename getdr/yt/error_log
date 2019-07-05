@@ -1,0 +1,41 @@
+[04-Mar-2018 16:41:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resolving timed out after 3000 milliseconds' in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php:153
+Stack trace:
+#0 /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php(63): YoutubeDownloader\Http\CurlClient->getHttpResponseFromCurl(Resource id #39, Array)
+#1 /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/Provider.php(172): YoutubeDownloader\Http\CurlClient->send(Object(YoutubeDownloader\Http\Request), Array)
+#2 /home/hdoffmwj/public_html/getdr/yt/src/Application/ResultController.php(64): YoutubeDownloader\Provider\Youtube\Provider->provide('https://www.you...')
+#3 /home/hdoffmwj/public_html/getdr/yt/src/Application/App.php(83): YoutubeDownloader\Application\ResultController->execute()
+#4 /home/hdoffmwj/public_html/getdr/yt/getvideo.php(23): YoutubeDownloader\Application\App->runWithRoute('results')
+#5 {main}
+
+Next exception 'RuntimeException' with message 'A curl error occurs while execute the curl handler.' in /home/hdoffmwj/public_ht in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php on line 156
+[04-Mar-2018 20:58:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resolving timed out after 3001 milliseconds' in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php:153
+Stack trace:
+#0 /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php(63): YoutubeDownloader\Http\CurlClient->getHttpResponseFromCurl(Resource id #39, Array)
+#1 /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/Provider.php(172): YoutubeDownloader\Http\CurlClient->send(Object(YoutubeDownloader\Http\Request), Array)
+#2 /home/hdoffmwj/public_html/getdr/yt/src/Application/ResultController.php(64): YoutubeDownloader\Provider\Youtube\Provider->provide('https://www.you...')
+#3 /home/hdoffmwj/public_html/getdr/yt/src/Application/App.php(83): YoutubeDownloader\Application\ResultController->execute()
+#4 /home/hdoffmwj/public_html/getdr/yt/getvideo.php(23): YoutubeDownloader\Application\App->runWithRoute('results')
+#5 {main}
+
+Next exception 'RuntimeException' with message 'A curl error occurs while execute the curl handler.' in /home/hdoffmwj/public_ht in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php on line 156
+[28-Mar-2018 07:26:10 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 144
+[28-Mar-2018 07:26:10 UTC] PHP Warning:  explode(): Empty delimiter in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 146
+[28-Mar-2018 07:26:33 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 53
+[28-Mar-2018 07:26:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resolving timed out after 3001 milliseconds' in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php:153
+Stack trace:
+#0 /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php(63): YoutubeDownloader\Http\CurlClient->getHttpResponseFromCurl(Resource id #49, Array)
+#1 /home/hdoffmwj/public_html/getdr/yt/src/Application/ControllerAbstract.php(105): YoutubeDownloader\Http\CurlClient->send(Object(YoutubeDownloader\Http\Request), Array)
+#2 /home/hdoffmwj/public_html/getdr/yt/src/Application/ResultController.php(174): YoutubeDownloader\Application\ControllerAbstract->getSize('https://r1---sn...', Object(YoutubeDownloader\Config), Object(YoutubeDownloader\Toolkit))
+#3 /home/hdoffmwj/public_html/getdr/yt/src/Application/App.php(83): YoutubeDownloader\Application\ResultController->execute()
+#4 /home/hdoffmwj/public_html/getdr/yt/getvideo.php(23): YoutubeDownloader\Application\App->runWithRoute('results')
+#5 {main}
+
+Next exception 'RuntimeException' with message ' in /home/hdoffmwj/public_html/getdr/yt/src/Http/CurlClient.php on line 156
+[09-May-2018 06:32:18 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 144
+[09-May-2018 06:32:18 UTC] PHP Warning:  explode(): Empty delimiter in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 146
+[09-May-2018 06:32:43 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 144
+[09-May-2018 06:32:43 UTC] PHP Warning:  explode(): Empty delimiter in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 146
+[27-Jun-2018 04:57:11 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 53
+[27-Jun-2018 04:57:11 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 134
+[27-Jun-2018 04:57:11 UTC] PHP Notice:  Undefined offset: 1 in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 144
+[27-Jun-2018 04:57:11 UTC] PHP Warning:  explode(): Empty delimiter in /home/hdoffmwj/public_html/getdr/yt/src/Provider/Youtube/SignatureDecipher.php on line 146

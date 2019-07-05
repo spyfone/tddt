@@ -1,0 +1,23 @@
+.streamplay-box-control {
+	background-color: #333;
+}
+.streamplay-list-control {
+	list-style-type: none;
+	margin:0px;
+}
+.streamplay-list-control li {
+	/*background-color: #000;*/
+	float: left;
+}
+.streamplay-link {
+	font-weight: 100;
+	font-size: 12px;
+	color: #FFF !important;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px;
+}
+.streamplay-link:hover {
+	background-color: #000 !important;
+}
